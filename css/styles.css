@@ -1,0 +1,119 @@
+/* основной фоновий цвет */
+/* основной цвет текста */
+/* color: ; */
+/* вторичный цвет фона */
+/* #2F303A */
+/* акцент */
+/* #2196F3 */
+/* вторичний цвет текста */
+/*  */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --alternative-text-color: #FFFFFF;
+    --primary-background-color: #F5F5F5;
+    --secondary-background-color: #2F303A;
+    }
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color)
+}
+/* логотип */
+
+.logo {
+    color: #000000;
+}
+.logo-accent {
+    color: var(--accent-color)}
+
+    /* навигация */
+
+.nav-link {
+    color: var(--title-text-color);
+    text-decoration: none;
+    }
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+    }
+
+.nav-botton {
+    color: var(--primary-text-color);
+    text-decoration: none;}
+
+.nav-botton:hover,
+.nav-botton:focus {
+    color: var(--accent-color);}
+
+    /* Герой */
+
+.hero {
+    background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+    color: var(--alternative-text-color);
+}
+
+.hero-botton {
+    background-color: var(--accent-color);
+    color: var(--alternative-text-color);
+}
+
+/* Наши преимущества */
+
+.benefits-list-title {
+    color: var(--title-text-color);
+}
+
+.benefits-list {
+    list-style: none;
+}
+
+/* Чем мы занимаемся */
+
+.discription-title {
+    color: var(--title-text-color);
+}
+
+.discription-list {
+    list-style: none;
+}
+
+/* Наша команда */
+
+.team-list {
+    list-style: none;
+}
+
+.team-title {
+    color: var(--title-text-color);
+}
+
+/* Футер */
+
+.contacts {
+    background-color: var(--secondary-background-color);
+}
+
+.logo-contacts {
+    color: var(--alternative-text-color);
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-adress {
+    text-decoration: none;
+    color: var(--alternative-text-color);
+}
+
+.contact-mail,
+.contact-tel {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
