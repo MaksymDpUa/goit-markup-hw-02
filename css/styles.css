@@ -13,8 +13,11 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --alternative-text-color: #FFFFFF;
-    --primary-background-color: #F5F5F5;
+    --logo-text-color: #000000;
+    --contacts-transparent-text: rgba(255, 255, 255, 0.6);
+    --primary-background-color: #FFFFFF;
     --secondary-background-color: #2F303A;
+    --alternative-background-color: #F5F4FA;
     }
 
 body {
@@ -24,12 +27,17 @@ body {
 /* логотип */
 
 .logo {
-    color: #000000;
+    color: var(--logo-text-color);
+    text-decoration: none;
 }
 .logo-accent {
     color: var(--accent-color)}
 
     /* навигация */
+
+.nav-list {
+    list-style: none;
+}
 
 .nav-link {
     color: var(--title-text-color);
@@ -85,6 +93,10 @@ body {
 
 /* Наша команда */
 
+.team {
+    background-color: var(--alternative-background-color);
+}
+
 .team-list {
     list-style: none;
 }
@@ -115,5 +127,34 @@ body {
 .contact-mail,
 .contact-tel {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--contacts-transparent-text);
+}
+
+/* Портфоліо */
+
+/* Фільтри */
+
+.filters {
+    list-style: none;
+}
+
+.filter-button {
+    background-color: var(--alternative-background-color);
+    color: var(--title-text-color);
+    }
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--alternative-text-color);
+}
+
+/* Проекты */
+
+.project-list {
+    list-style: none;
+}
+
+.projects-title {
+    color:  var(--title-text-color);
 }
