@@ -137,7 +137,6 @@ body {
 }
 
 .benefits-discraption {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -209,7 +208,6 @@ body {
     color: var(--alternative-text-color);
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -219,7 +217,6 @@ body {
     color: var(--contacts-transparent-text);
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
